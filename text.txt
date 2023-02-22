@@ -1,0 +1,2 @@
+git config --global user.name "Vaše ime"
+git config --global user.email "Vaša e-pošta"
