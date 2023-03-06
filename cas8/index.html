@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+      }
+      main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .navContainer {
+        width: 100%;
+        height: 50px;
+        background-color: blue;
+      }
+      .navContainer h1 {
+        margin: 0;
+      }
+
+      .mainContainer {
+        width: 80%;
+        height: 700px;
+        background-color: rgb(248, 226, 210);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      .divContainer {
+        width: 80%;
+        height: 75px;
+        background-color: blueviolet;
+        border-radius: 20px;
+      }
+
+      .flexStart {
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        margin-left: 5px;
+      }
+      .flexEnd {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+        margin-right: 5px;
+      }
+
+      .center {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .spaceBtw {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        margin: 0 5px 0 5px;
+      }
+      .spaceAround {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .spaceEvn {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+      }
+      .card {
+        width: 20%;
+        height: 80%;
+        background-color: orange;
+        border-radius: 20px;
+      }
+    </style>
+    <header>
+      <div class="navContainer">
+        <h1>Ovo je moj sajt</h1>
+      </div>
+    </header>
+    <main>
+      <div class="mainContainer">
+        <div class="divContainer">
+          <div class="flexStart">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+        </div>
+        <div class="divContainer">
+          <div class="flexEnd">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+        </div>
+        <div class="divContainer">
+          <div class="center">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+        </div>
+        <div class="divContainer">
+          <div class="spaceBtw">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+        </div>
+        <div class="divContainer">
+          <div class="spaceAround">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+        </div>
+        <div class="divContainer">
+          <div class="spaceEvn">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
